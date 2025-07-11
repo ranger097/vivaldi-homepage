@@ -12,6 +12,18 @@ body {
     
 }
 
+img {
+   /* border-radius: 50%;*/
+    filter: saturate(0%) contrast(200%) opacity(50%);
+    
+
+    
+}
+
+img:hover {
+    border-radius: 50%;
+}
+
 .container {
     display: grid;
     grid-template-areas: 
@@ -33,7 +45,7 @@ body {
 
 .inner-container {
     border-radius: 15px;
-    background-color: rgba(173, 173, 173, 0.388);
+    background-color: rgba(143, 143, 143, 0.388);
     transition: all 0.3s ease-in-out; 
     aspect-ratio: 1/1;
     text-align: center;
@@ -42,6 +54,7 @@ body {
     box-shadow: -4px 4px 20px black;
    
     position: relative;
+    
 }
  a {
     text-decoration: none;
