@@ -1,6 +1,6 @@
 body {
     background: linear-gradient(gray, lightgray );
-    background-image: url('design20.jpg');
+    background-image: url('design21.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -43,7 +43,7 @@ img {
 
 .inner-container {
     border-radius: 15px;
-    background: linear-gradient(rgba(177, 177, 177, 0.253),rgb(0, 0, 0));
+    background: linear-gradient(rgba(177, 177, 177, 0.158),rgba(0, 0, 0, 0.808));
     transition: all 0.3s ease-in-out; 
     aspect-ratio: 1/1;
     text-align: center;
@@ -51,7 +51,7 @@ img {
     backdrop-filter: blur(10px);
     box-shadow: -4px 4px 20px black;
     position: relative;
-    border: 1px solid rgb(0, 0, 0);
+    border: 0.7px solid rgb(0, 0, 0);
    
 
 }
